@@ -1,0 +1,28 @@
+digraph G {
+  rankdir=BT;
+  edge [dir=none];
+  0;
+  1 [color=red, fontcolor=red];
+  2 [color=red, fontcolor=red];
+  3 [color=red, fontcolor=red];
+  4;
+  5 [color=red, fontcolor=red];
+  6;
+  7;
+  8;
+  9;
+  0 -> 9;
+  9 -> 6;
+  9 -> 7;
+  9 -> 8;
+  6 -> 4;
+  6 -> 2;
+  7 -> 4;
+  7 -> 3;
+  4 -> 1;
+  8 -> 5;
+  5 -> 2 [color=red];
+  5 -> 3 [color=red];
+  2 -> 1 [color=red];
+  3 -> 1 [color=red];
+}
